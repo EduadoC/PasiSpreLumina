@@ -4,7 +4,7 @@ body {
     height: 200px; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
-      
+    background-attachment: fixed;     
 }
 
 header {
@@ -99,4 +99,35 @@ header {
 		transform:         translateY(-15px)
 	}
 
+}
+
+.conteiner {
+    background-color: lightgrey;
+    width: 1500px;
+    height: 500px;
+    position: relative;
+    top: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("p_text1.jpg");
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-size: cover;
+    filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: none;  
+}
+.bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 500px;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
 }
