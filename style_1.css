@@ -1,0 +1,102 @@
+body {
+    background-image: url("bkg.png");
+    background-color: #D1FAFF;
+    height: 200px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+      
+}
+
+header {
+    height: 100px;
+    animation-name: colors;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    box-shadow: rgb(65, 65, 65) 20px 20px 50px;
+    border-bottom: palegoldenrod 5px solid;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+@keyframes colors {
+    0%   {background-color:#157145; left:0px; top:0px;}
+    25%  {background-color:#D1FAFF; left:200px; top:0px;}
+    50%  {background-color:#6A8EAE; left:200px; top:200px;}
+    75%  {background-color:#57A773; left:0px; top:200px;}
+    100% {background-color:#157145; left:0px; top:0px;}
+  }
+#logo {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    object-fit: none;
+}
+.menu {
+    float: right;
+    position: relative;
+    top: 68px;
+    right: 30px; 
+    
+}
+.menu a {
+    background-color: #9BD1E5;
+    border-top: #57A773 2px solid;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    
+}
+.menu a:hover {
+    background-color: #D1FAFF;
+}
+.row {
+    padding-left: 5px;
+    margin-top: 90px;
+}
+.column {
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+ }
+.column img {
+    width: 500px;
+    height: 360px;
+    object-fit: none;
+    border: rgb(187, 187, 187) 5px solid;
+    border-radius: 360px;
+    box-shadow: rgb(65, 65, 65) 20px 20px 50px;
+    border-style: outset;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    color: white;
+
+}
+.column img:hover {
+    cursor: pointer;
+    animation-name: bounce;
+    -moz-animation-name: bounce;
+}
+@keyframes bounce {
+	0%, 100%, 20%, 50%, 80% {
+		-webkit-transform: translateY(0);
+		-ms-transform:     translateY(0);
+		transform:         translateY(0)
+	}
+	40% {
+		-webkit-transform: translateY(-30px);
+		-ms-transform:     translateY(-30px);
+		transform:         translateY(-30px)
+	}
+	60% {
+		-webkit-transform: translateY(-15px);
+		-ms-transform:     translateY(-15px);
+		transform:         translateY(-15px)
+	}
+
+}
