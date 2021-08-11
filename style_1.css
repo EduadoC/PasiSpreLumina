@@ -4,14 +4,14 @@ body {
     height: 1000px; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
-    background-attachment: fixed;
+    background-attachment:fixed;
     background-size: cover; 
-    font-family: 'B612 Mono';font-size: 22px;   
+    font-family: 'B612 Mono';font-size: 22px;
 }
 
 header {
     height: 150px;
-   
+    width: 100%; 
 }
 #logo {
     width: 200px;
@@ -39,28 +39,31 @@ header {
     border: black 1px solid;
     border-radius: 5px;
 }
-.paragraf {
-    position: relative;
-    left: 100px;
-    top: 100px;
-    box-sizing: content-box
-}
-#text_motiv {
-    text-align:;
+.conteiner {
+    height: 30%;
+    box-sizing: content-box;
+    position: absolute;
+    bottom: 70%;
+    top: 30%;
+    margin-left: 150px;
+    font-size: 1.1em;
     text-align: center;
-    float: left;
+
 }
-#motto {
+footer {
+    background-image: linear-gradient(to top right, #ffffff, #babd8d );
+    display: block;
+    width: 99%;
+    height: 370px;
+    position: absolute;
+    bottom: 0px;
+    padding-bottom: 0px;
+    text-align: center;   
+}
+.copyright {
+    font-size: 10px;
     position: relative;
-    left: 100px;
-}
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: red;
-    color: white;
-    text-align: center;
-}
+    top: 340px;
+
     
+}
