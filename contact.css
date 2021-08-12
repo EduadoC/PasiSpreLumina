@@ -39,17 +39,7 @@ header {
     border: black 1px solid;
     border-radius: 5px;
 }
-.conteiner {
-    height: 30%;
-    box-sizing: content-box;
-    position: absolute;
-    bottom: 70%;
-    top: 30%;
-    margin-left: 150px;
-    font-size: 1.1em;
-    text-align: center;
 
-}
 footer {
     background-image: linear-gradient(to top right, #ffffff, #babd8d );
     display: block;
