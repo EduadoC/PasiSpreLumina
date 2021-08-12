@@ -30,7 +30,7 @@ header {
     text-align: center;
     text-decoration: none;
     font-size: 25px;
-    color: black;
+    color: #7c6a0a;
     padding: 10px;   
     box-sizing: content-box;
     margin-left: 100px;
@@ -47,9 +47,9 @@ header {
     top: 30%;
     margin-left: 150px;
     font-size: 1.1em;
-    text-align: center;
-
+    text-align: center;    
 }
+
 footer {
     background-image: linear-gradient(to top right, #ffffff, #babd8d );
     display: block;
