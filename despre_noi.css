@@ -24,7 +24,8 @@ header {
     position: relative;
     top: 35px; 
     box-sizing: content-box;
-    margin: auto;    
+    margin: auto;   
+
 }
 .menu a {
     text-align: center;
@@ -38,6 +39,10 @@ header {
 .menu a:hover {
     border: black 1px solid;
     border-radius: 5px;
+}
+.despre_noi {
+    place-content: center;
+    text-align: center;
 }
 
 footer {
@@ -53,16 +58,9 @@ footer {
 .copyright {
     font-size: 10px;
     position: relative;
-    top: 3px; 
-}
-.despre_noi {
-    text-align: center;
-    width: 70%;
-    margin: auto;
+    top: 3px;   
 }
 .poza_solar1 {
     width: 30%;
-    
-    border: 1px solid;
-    
+    border: 1px solid;    
 }

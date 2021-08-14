@@ -55,15 +55,11 @@ footer {
     position: relative;
     top: 3px; 
 }
-.activitati h2 {
-    padding-top: 100px;
-}
 .activitati {
+    place-content: center;
     text-align: center;
-    width: 70%;
-    margin: auto;
-    padding-top: 50px;
 }
+
 .poze {
     width: 60%;
     border-radius: 100%;
